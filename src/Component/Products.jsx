@@ -5,14 +5,14 @@ import Product from './Product'
 const Products = () => {
 
     const product=[
-        {name:"",image:"",},
-        {name:"",image:"",},
-        {name:"",image:"",},
-        {name:"",image:"",},
-        {name:"",image:"",},
+        {name:"Arqital",image:"",},
+        {name:"TTR",image:"",},
+        {name:"Rainfall",image:"",},
+        {name:"Jungle",image:"",},
+        {name:"Silvr",image:"",},
     ]
   return (
-    <div className='w-full py-5 mt-20'>
+    <div className='w-full py-10 mt-20'>
     { product.map((item,index)=><Product val={item} key={index}/>
      )}
     </div>
