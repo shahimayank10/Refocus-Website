@@ -4,6 +4,7 @@ import Work from './Component/Work'
 import Streapes from './Component/Streapes'
 import Products from './Component/Products'
 import Marquees from './Component/Marquees'
+import Footer from './Component/Footer'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
      <Streapes/>
      <Products/>
      <Marquees/>
+     <Footer/>
     </div>
   )
 }
