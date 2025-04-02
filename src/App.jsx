@@ -5,9 +5,15 @@ import Streapes from './Component/Streapes'
 import Products from './Component/Products'
 import Marquees from './Component/Marquees'
 import Footer from './Component/Footer'
+import LocomotiveScroll from 'locomotive-scroll';
+
+
+
 
 
 function App() {
+
+  const locomotiveScroll = new LocomotiveScroll();
  
 
   return (
